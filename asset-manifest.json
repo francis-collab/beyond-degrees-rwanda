@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/beyond-degrees-rwanda/static/css/main.553a6c35.css",
+    "main.js": "/beyond-degrees-rwanda/static/js/main.caa27d95.js",
+    "index.html": "/beyond-degrees-rwanda/index.html",
+    "main.553a6c35.css.map": "/beyond-degrees-rwanda/static/css/main.553a6c35.css.map",
+    "main.caa27d95.js.map": "/beyond-degrees-rwanda/static/js/main.caa27d95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.553a6c35.css",
+    "static/js/main.caa27d95.js"
+  ]
+}
