@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+# 🌍 Beyond Degrees: Youth Employment Matters
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Beyond Degrees** is a dynamic, fully responsive React website that raises awareness and proposes real solutions to youth unemployment in Rwanda. It features educational resources, success stories, data-driven statistics, and opportunities for community involvement — all built with modern web technologies.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Live Demo
 
-### `npm start`
+🔗 [https://francis-collab.github.io/beyond-degrees-rwanda/](https://francis-collab.github.io/beyond-degrees-rwanda/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- ⚛️ Built with **React.js + Tailwind CSS**  
+- 🔀 Client-side routing using **HashRouter** for GitHub Pages  
+- 📱 Fully responsive across all devices  
+- 🎬 Media support (videos, images, animations)  
+- 📊 Data visualization with stats and tables  
+- 🧠 In-depth pages on root causes and solutions to unemployment  
+- 💬 Volunteer & contact forms  
+- 🌐 Ready for deployment on **GitHub Pages**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🗂️ Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+beyond-degrees-rwanda/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   └── Footer.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Statistics.js
+│   │   ├── Solutions.js
+│   │   ├── SuccessStories.js
+│   │   ├── Resources.js
+│   │   ├── Media.js
+│   │   ├── GetInvolved.js
+│   │   └── Contact.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Installation & Development
 
-### `npm run eject`
+### Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/francis-collab/beyond-degrees-rwanda.git
+cd beyond-degrees-rwanda
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Run the App Locally
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+App will run at:  
+[http://localhost:3000](http://localhost:3000)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🌐 Deployment to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project uses **gh-pages** and **HashRouter** for seamless GitHub Pages hosting.
 
-### Analyzing the Bundle Size
+### 1. Make Sure This is in `package.json`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```json
+"homepage": "https://francis-collab.github.io/beyond-degrees-rwanda"
+```
 
-### Making a Progressive Web App
+### 2. Deploy Commands
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run build
+npm run deploy
+```
 
-### Advanced Configuration
+Your site will be live at:  
+🔗 [https://francis-collab.github.io/beyond-degrees-rwanda/](https://francis-collab.github.io/beyond-degrees-rwanda/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📘 Pages Included
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| Page           | Description                                           |
+|----------------|-------------------------------------------------------|
+| Home           | Inspiring intro, stats, testimonials, call-to-action |
+| About          | Project background, mission, vision                  |
+| Statistics     | Unemployment data, trends, visualizations            |
+| Solutions      | Proven interventions and strategies                  |
+| SuccessStories | Real stories of youth overcoming joblessness         |
+| Resources      | Toolkits, training links, job portals                |
+| Media          | Images, videos, animations                           |
+| Get Involved   | Volunteer, partner, donate, sign-up                  |
+| Contact        | Message form, location, email, socials               |
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧰 Built With
+
+- React.js  
+- Tailwind CSS  
+- React Router  
+- GitHub Pages  
+
+---
+
+## 🧑‍💻 Author
+
+**Francis Mutabazi**  
+GitHub: [https://github.com/francis-collab](https://github.com/francis-collab)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 💡 Contributing
+
+Contributions are welcome!  
+Open a pull request or issue with your improvements, feedback, or ideas.
+
